@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bayon&display=swap');
+
+body{
+    font-family: "Bayon", sans-serif;
+}
+.nav-bar{
+    height: 50px;
+    width: 100%; 
+    background-color: grey;
+}
+.navigation{
+    width: 90%;
+    height: 50px;
+    /* background-color: grey; */
+    display: flex;
+    margin: auto;
+}
+.nav-left{
+    display: flex;
+    width: 35%;
+    height: 100%;
+    /* background-color: grey; */
+}
+.nav-center{
+    width: 20%;
+    height: 100%;
+    padding: 10px 0;
+    display: flex;
+    justify-content: end;
+    /* background-color: grey; */   
+}
+.nav-right{
+    width: 45%;
+    height: 100%;
+    /* background-color: grey; */
+}
+.nav-left > ul{
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    align-items: center;
+    /* justify-content: center; */
+}      
+.nav-left ul li{
+    font-size: 20px;
+    font-weight: bold;
+    height: 100%;
+    /* background-color: blue; */
+    display: flex;
+    place-items: center;
+    padding: 0 15px;
+    text-transform: uppercase;
+} 
+
+.nav-left ul li:hover{
+    background-color: #dba;
+    cursor: pointer;
+}

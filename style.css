@@ -14,6 +14,7 @@ body{
     height: 50px;
     width: 100%; 
     background-color: grey;
+    color: whitesmoke;
 }
 .navigation{
     width: 90%;
@@ -34,6 +35,9 @@ body{
     padding: 10px 0;
     display: flex;
     justify-content: end;
+    align-items: center;
+    font-size: 30px;
+    color: black;
     /* background-color: grey; */   
 }
 .nav-right{
@@ -62,4 +66,22 @@ body{
 .nav-left ul li:hover{
     background-color: #dba;
     cursor: pointer;
+}
+.nav-right ul{
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+    justify-content: end;
+    height: 100%;
+    /* background-color: green; */
+    align-items: center;
+}
+.nav-right ul li{
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 0 15px;
+    /* background-color: blue; */
+    font-weight: bold;
 }

@@ -1,117 +1,127 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+@import url("https://fonts.googleapis.com/css2?family=Bayon&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Bayon&display=swap');
+body {
+  font-family: "Bayon", sans-serif;
+}
+.nav-bar {
+  height: 50px;
+  width: 100%;
+  background-color: rgb(187, 183, 183);
+  /* color: whitesmoke; */
+}
+.navigation {
+  width: 87%;
+  height: 50px;
+  /* background-color: grey; */
+  display: flex;
+  margin: auto;
+}
+.nav-left {
+  display: flex;
+  width: 35%;
+  height: 100%;
+  /* background-color: grey; */
+}
+.nav-center {
+  width: 20%;
+  height: 100%;
+  padding: 10px 0;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  font-size: 30px;
+  color: black;
+  /* background-color: grey; */
+}
+.nav-right {
+  width: 45%;
+  height: 100%;
+  /* background-color: grey; */
+}
+.nav-left > ul {
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+  align-items: center;
+  /* justify-content: center; */
+}
+.nav-left ul li {
+  font-size: 20px;
+  font-weight: bold;
+  height: 100%;
+  /* background-color: blue; */
+  display: flex;
+  place-items: center;
+  padding: 0 15px;
+  text-transform: uppercase;
+}
 
-body{
-    font-family: "Bayon", sans-serif;
+.nav-left ul li:hover {
+  background-color: #F5F5F5;
+  cursor: pointer;
 }
-.nav-bar{
-    height: 50px;
-    width: 100%; 
-    background-color: rgb(187, 183, 183);
-    /* color: whitesmoke; */
+.nav-right ul {
+  list-style-type: none;
+  display: flex;
+  gap: 10px;
+  justify-content: end;
+  height: 100%;
+  /* background-color: green; */
+  align-items: center;
 }
-.navigation{
-    width: 90%;
-    height: 50px;
-    /* background-color: grey; */
-    display: flex;
-    margin: auto;
+.nav-right ul li {
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 0 15px;
+  /* background-color: blue; */
+  font-weight: bold;
 }
-.nav-left{
-    display: flex;
-    width: 35%;
-    height: 100%;
-    /* background-color: grey; */
+.nav-right ul li i {
+  font-size: 25px;
 }
-.nav-center{
-    width: 20%;
-    height: 100%;
-    padding: 10px 0;
-    display: flex;
-    justify-content: end;
-    align-items: center;
-    font-size: 30px;
-    color: black;
-    /* background-color: grey; */   
+.nav-right ul li:hover {
+  cursor: pointer;
+  background-color: #F5F5F5;
 }
-.nav-right{
-    width: 45%;
-    height: 100%;
-    /* background-color: grey; */
+.search {
+  display: flex;
+  background-color: whitesmoke;
+  height: 60%;
+  align-items: center;
+  width: 150px;
+  padding-left: 10px;
+  /* border: 2px solid black; */
+  border-radius: 5px;
 }
-.nav-left > ul{
-    display: flex;
-    gap: 20px;
-    list-style-type: none;
-    align-items: center;
-    /* justify-content: center; */
-}      
-.nav-left ul li{
-    font-size: 20px;
-    font-weight: bold;
-    height: 100%;
-    /* background-color: blue; */
-    display: flex;
-    place-items: center;
-    padding: 0 15px;
-    text-transform: uppercase;
-} 
+.search input {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  width: 75%;
+  height: 100%;
+}
+.search i {
+  width: 25%;
+}
+.nav-right ul li:hover:first-child {
+  background-color: transparent;
+}
+.hero-section {
+  width: 87%;
+  height: 800px;
+  /* background-color: red; */
+  margin: auto;
+}
+.img-hero {
+  width: 100%;
+  height: 100%;
+}
 
-.nav-left ul li:hover{
-   background-color: #dbdadb;
-    cursor: pointer;
-}
-.nav-right ul{
-    list-style-type: none;
-    display: flex;
-    gap: 10px;
-    justify-content: end;
-    height: 100%;
-    /* background-color: green; */
-    align-items: center;
-}
-.nav-right ul li{
-    text-transform: uppercase;
-    display: flex;
-    align-items: center;
-    height: 100%;
-    padding: 0 15px;
-    /* background-color: blue; */
-    font-weight: bold;
-}
-.nav-right ul li i{
-    font-size: 25px;
-}
-.nav-right ul li:hover{
-    cursor: pointer;
-    background-color: #dbdadb;
-}
-.search{
-    display: flex;
-    background-color: white;
-    height: 60%;
-    align-items: center;
-    width: 150px;
-    padding-left: 10px;
-    /* border: 2px solid black; */
-    border-radius: 5px;
-}
-.search input{
-    background-color: transparent;
-    outline: none;
-    border: none;
-    width: 75%;
-    height: 100%;
-}
-.search i{
-    width: 25%;
-}
-.nav-right ul li:hover:first-child{
-    background-color: transparent;
-}

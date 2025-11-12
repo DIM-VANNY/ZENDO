@@ -13,6 +13,29 @@
       referrerpolicy="no-referrer"
     />
   </head>
+  
+  <style>
+    swiper-container {
+      width: 100%;
+      height: 100%;
+    }
+
+    swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #444;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  </style>
   <body>
     <!-- <i class="fa fa-home" aria-hidden="true"></i>
     <h3>សួរស្តី</h3> -->
@@ -47,6 +70,22 @@
         </div>
       </nav>
     </nav>
+    <section class="hero-section">
+        <swiper-container class="mySwiper" pagination="true">
+        <swiper-slide>
+          <div class="img-hero">
+            <img src="image/Slide 1.png" alt="">
+          </div>
+        </swiper-slide>
+       <swiper-slide>
+          <div class="img-hero">
+            <img src="image/slide 2.png" alt="">
+          </div>
+        </swiper-slide>
+  </swiper-container>
+    </section>
   </body>
 </html>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
 

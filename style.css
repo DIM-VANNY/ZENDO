@@ -114,7 +114,7 @@
   align-items: center;
   width: 150px;
   padding-left: 10px;
-  /* border: 2px solid black; */
+  border: 1px solid #707070;
   border-radius: 5px;
 }
 .search input {
@@ -220,7 +220,7 @@
   height: 100%;
   width: 100%;
 }
-.main-setion {
+.main-section {
   /* height: 500px; */
   /* background-color: aquamarine; */
   margin-top: 40px;
@@ -309,11 +309,208 @@
   color: aliceblue;
   border-radius: 5px;
 }
-.cart-brand{
+.cart-brand {
   font-size: 20px;
   position: absolute;
   right: 10px;
   bottom: 20px;
   writing-mode: vertical-rl;
   transform: rotate(180deg);
+}
+
+.footer {
+  height: 400px;
+  margin-top: 50px;
+  display: flex;
+  /* background-color: red; */
+  /* gap: 0.5%; */
+}
+
+.footer a {
+  text-decoration: none;
+  color: black;
+}
+.footer .title {
+  font-family: khmer MOMO;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bold;
+}
+.footer .text {
+  font-size: 18px;
+}
+
+/* Left-Left */
+.footer-left-left {
+  width: 20%;
+  height: 100%;
+  /* background-color: rgb(3, 137, 255); */
+}
+.footer-left-left .qrcode {
+  margin-top: 20px;
+  width: 45%;
+  height: 35%;
+  /* background-color: blue; */
+}
+.footer-left-left .qrcode img {
+  width: 100%;
+  height: 100%;
+}
+.footer-left-left .payment{
+  margin-top: 80px;
+}
+.footer-left-left .visa-card{
+  margin-top: 20px;
+  width: 300px;
+  height: 70px;
+  /* background-color: rgb(55, 0, 255); */
+}
+.footer-left-left .visa-card img{
+  width: 100%;
+  height: 100%;
+}
+
+
+/* Right-Right */
+.footer-left-right {
+  width: 20%;
+  height: 100%;
+  /* background-color: red; */
+}
+.footer-left-right .text {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+.footer-left-right .text .icon {
+  width: 20px;
+  height: 20px;
+  /* background-color: blue; */
+  font-size: 20px;
+}
+
+/* Middle */
+.footer-middle {
+  width: 20%;
+  height: 100%;
+  /* background-color: red; */
+}
+.footer-middle .social-media {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+.footer-middle .social-media .facebook {
+  gap: 10px;
+  display: flex;
+  flex-direction: row;
+}
+.footer-middle .social-media .icon {
+  width: 20px;
+  height: 20px;
+  font-size: 20px;
+
+  /* background-color: rgb(0, 0, 0); */
+}
+.footer-middle .social-media .instagram {
+  gap: 10px;
+  display: flex;
+  flex-direction: row;
+}
+.footer-middle .social-media .tiktok {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.footer-middle .social-media .youtube {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+/* Right-Left */
+.footer-right-left {
+  width: 20%;
+  height: 100%;
+  /* background-color: red; */
+}
+.footer-right-left .service {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.footer-right-left .service .icon {
+  font-size: 20px;
+  width: 20px;
+  height: 20px;
+  /* background-color: rgb(0, 0, 0); */
+}
+.footer-right-left .service .online-exchange {
+  display: flex;
+  gap: 10px;
+  flex-direction: row;
+}
+.footer-right-left .service .privacy {
+  display: flex;
+  gap: 10px;
+  flex-direction: row;
+}
+.footer-right-left .service .faq {
+  display: flex;
+  gap: 10px;
+  flex-direction: row;
+}
+.footer-right-left .service .location {
+  display: flex;
+  gap: 10px;
+  flex-direction: row;
+}
+
+/* Right-Right */
+.footer-right-right {
+  width: 20%;
+  height: 100%;
+  /* background-color: red; */
+}
+.footer-right-right .contact {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.footer-right-right .contact .icon {
+  width: 20px;
+  height: 20px;
+  font-size: 20px;
+  /* background-color: black; */
+}
+.footer-right-right .contact .email {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.footer-right-right .contact .phone {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.footer-right-right .contact .telegram {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+
+.hr{
+  margin-top: 80px;
+}
+.reserved{
+  height: 80px;
+  /* background-color: #1b1b1b; */
+  margin-top: 50px;
+  font-size: 15px;
+  text-align: right;
+  color: #1b1b1b;
 }
